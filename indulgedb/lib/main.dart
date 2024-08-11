@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:indulgedb/plugins/indulgedb-v1.0.0/indulgedb.dart';
+
+void initializeDB() {
+  IndulgeDB db = IndulgeDB();
+
+  db.database;
+}
 
 void main() {
   runApp(const MainApp());
