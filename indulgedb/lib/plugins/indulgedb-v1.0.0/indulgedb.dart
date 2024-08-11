@@ -6,9 +6,9 @@ import 'package:indulgedb/plugins/indulgedb-v1.0.0/helpers/document_helper.dart'
 import 'package:indulgedb/plugins/indulgedb-v1.0.0/nosql_manager.dart';
 
 class IndulgeDB {
-  final DatabaseHelper database = DatabaseHelper();
-  final CollectionHelper collection = CollectionHelper();
-  final DocumentHelper document = DocumentHelper();
+  final DatabaseHelper databases = DatabaseHelper();
+  final CollectionHelper collections = CollectionHelper();
+  final DocumentHelper documents = DocumentHelper();
 
   final NoSQLManager _noSQLManager = NoSQLManager();
 
